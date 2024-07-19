@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "aws-amplify": "^6.4.0",
+    "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tslib": "^2.3.0"
@@ -17,6 +18,7 @@
     "@nx/eslint-plugin": "19.3.0",
     "@nx/jest": "19.3.0",
     "@nx/js": "19.3.0",
+    "@nx/next": "19.3.0",
     "@nx/react": "19.3.0",
     "@nx/vite": "19.3.0",
     "@nx/web": "19.3.0",
@@ -40,6 +42,7 @@
     "constructs": "^10.3.0",
     "esbuild": "^0.23.0",
     "eslint": "~8.57.0",
+    "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
