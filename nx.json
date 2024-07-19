@@ -36,16 +36,8 @@
       "options": {
         "targetName": "test"
       }
-    },
-    {
-      "plugin": "@nx/next/plugin",
-      "options": {
-        "startTargetName": "start",
-        "buildTargetName": "build",
-        "devTargetName": "dev",
-        "serveStaticTargetName": "serve-static"
-      }
     }
+  
   ],
   "generators": {
     "@nx/react": {
@@ -59,12 +51,6 @@
         "style": "css"
       },
       "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
-    },
-    "@nx/next": {
-      "application": {
         "style": "css",
         "linter": "eslint"
       }
